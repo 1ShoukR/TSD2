@@ -19,7 +19,7 @@ Here is more information about the website written in this [Medium Article]()
 
 # Features
 
-* minimalistic and simple design 
+* Minimalistic and simple design 
 * Users can explore different pages of their favorite Star Wars lore and canon
 * Users can add each item into their favorites page and have them displayed in a card fashion, as well as being able to remove the item later if they so choose to
 * Fully mobile responsive
