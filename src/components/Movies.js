@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'; 
 import { fetchMovies, } from "../actions/fetchMovies"
 import { MovieCard } from './MovieCard';
-import { useEffect } from 'react';
+import { useEffect} from 'react';
 import "../css/movies.css"
 
 
@@ -12,7 +12,7 @@ const Movies = () => {
 
   useEffect(() => {
     fetchMovies(dispatch);
-  }, []);
+  }, [dispatch]);
   return (
     <div className='movieContainer'>
       <div className='moviesTitle'>
