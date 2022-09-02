@@ -12,7 +12,7 @@ Rahmin Shoukoohi
 
 [email](rahminshoukoohi@gmail.com)
 
-Here is more information about the website written in this [Medium Article]()
+Here is more information about the website written in this [Medium Article](https://medium.com/@rahminshoukoohi/in-a-galaxy-far-far-away-b86e2355268a)
 
 # Website Overview
 "The Smuggler's Den" uses both React and Redux. Visitors of the website can explore all the canon and lore intricacies of the Star Wars Universe. Each page identifies and displays different aspects of the Star Wars universe, including the different planets, vehicles used, featured characters, different species, and the many starships used throughout the canon and lore of Star Wars. Users can also add each item from the different pages into their favorites page to view them later. 
