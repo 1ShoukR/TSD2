@@ -1,7 +1,9 @@
 .h1StarshipCard {
-  display: grid;
-  grid-template-columns: repeat(5, 300px);
-  gap: 50px;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: ; */
 }
 
 .starshipsContainer {
@@ -43,16 +45,6 @@
   margin: 0px;
 }
 
-.starshipClass {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  padding: 0px;
-  margin: 10px;
-}
-
 .manufactured {
   justify-content: center;
   align-items: center;
@@ -62,51 +54,6 @@
   padding: 0px;
   margin: 5px;
 }
-
-.speed {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  padding: 0px;
-  margin: 10px;
-}
-
-
-.cost{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  padding: 0px;
-  margin: 10px;
-}
-
-.created {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  padding: 0px;
-  margin: 10px;
-}
-
-
-.model {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  padding: 0px;
-  margin: 10px;
-}
-
-
-
 
 @media (max-width: 830px) {
  .h1StarshipCard {
